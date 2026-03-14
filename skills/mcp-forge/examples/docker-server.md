@@ -97,7 +97,7 @@ Complete ForgeConfig for a docker MCP server with 6 tools.
     }
   ],
   "options": {
-    "docker": false,
+    "docker": true,
     "systemd": false,
     "port": 3101,
     "allowedCommands": ["docker"],
