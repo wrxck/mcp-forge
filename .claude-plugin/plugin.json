@@ -2,7 +2,10 @@
   "name": "mcp-forge",
   "version": "1.0.0",
   "description": "Scaffold hardened MCP servers wrapping CLI tools",
-  "author": "Matt Hesketh",
+  "author": {
+    "name": "Matt Hesketh",
+    "email": "matt@heskethwebdesign.co.uk"
+  },
   "license": "MIT",
   "commands": [
     {
@@ -49,9 +52,5 @@
       "description": "MCP server scaffold generator",
       "entry": "skills/mcp-forge/SKILL.md"
     }
-  ],
-  "source": {
-    "source": "url",
-    "url": "https://github.com/wrxck/mcp-forge.git"
-  }
+  ]
 }
