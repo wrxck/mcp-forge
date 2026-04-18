@@ -162,14 +162,14 @@ mcp-git/
 
 ## Tool enhancement example
 
-The generator creates a working `git-diff.ts` but the `staged` flag needs manual argument mapping. Claude enhances it:
+The generator creates a working `git-diff.ts` but the `staged` flag needs manual argument mapping:
 
 ```typescript
 // before (generated boilerplate)
 const cmdArgs = ["diff"];
 if (staged !== undefined) cmdArgs.push(String(staged));
 
-// after (enhanced by Claude)
+// after (manual fix)
 const cmdArgs = ["diff"];
 if (staged) cmdArgs.push("--staged");
 ```
