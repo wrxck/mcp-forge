@@ -1,5 +1,7 @@
 # mcp-forge
 
+[![CI](https://github.com/wrxck/mcp-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/wrxck/mcp-forge/actions/workflows/ci.yml)
+
 A Claude Code plugin that scaffolds hardened MCP servers wrapping CLI tools and APIs. Every generated server ships with four security layers baked in -- input validation, injection prevention, path safety, and rate limiting.
 
 ## The problem
