@@ -1,3 +1,8 @@
+---
+description: Scaffold a hardened MCP server wrapping a CLI tool or API
+argument-hint: "<cli-name or api>"
+---
+
 # /mcp-forge
 
 Scaffold a hardened MCP server wrapping a CLI tool or API.

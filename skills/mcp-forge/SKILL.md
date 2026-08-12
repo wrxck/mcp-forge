@@ -1,3 +1,13 @@
+---
+name: mcp-forge
+description: >-
+  Scaffold a hardened MCP server that wraps a CLI tool or API, with input validation, injection
+  prevention, path safety and rate limiting generated in rather than bolted on. Load when the user
+  asks to build, scaffold or generate an MCP server, to wrap a command-line tool or API as MCP, or
+  to audit an existing MCP server for security problems.
+allowed-tools: "Bash Read Write Edit Glob Grep Task"
+---
+
 # mcp-forge
 
 Scaffold hardened MCP servers wrapping CLI tools.
@@ -22,7 +32,12 @@ Load these on demand -- do not read all upfront:
 
 ## Templates
 
-Located at `${CLAUDE_PLUGIN_ROOT}/skills/mcp-forge/templates/`. Read `template-index.md` first, then load individual templates as needed during generation.
+The generator writes the project itself, from the TypeScript templates in
+`${CLAUDE_PLUGIN_ROOT}/generator/src/templates/`. There is nothing to read before running it.
+
+`${CLAUDE_PLUGIN_ROOT}/skills/mcp-forge/references/template-index.md` lists which files come out and
+under what condition, which is worth checking when a generated project is missing something you
+expected.
 
 ## Examples
 

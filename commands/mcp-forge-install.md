@@ -1,3 +1,8 @@
+---
+description: Register a generated MCP server with Claude Code
+argument-hint: "[path]"
+---
+
 # /mcp-forge:install
 
 Register a generated MCP server with Claude Code.

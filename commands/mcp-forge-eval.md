@@ -1,3 +1,8 @@
+---
+description: Run the mcp-forge benchmark suite
+argument-hint: "[task]"
+---
+
 # /mcp-forge:eval
 
 Run the mcp-forge evaluation suite.

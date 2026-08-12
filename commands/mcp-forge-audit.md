@@ -1,3 +1,8 @@
+---
+description: Security audit an existing MCP server project
+argument-hint: "[path]"
+---
+
 # /mcp-forge:audit
 
 Security audit an existing MCP server project.

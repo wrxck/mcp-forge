@@ -1,6 +1,7 @@
 # Template Index
 
-Templates are located at `${CLAUDE_PLUGIN_ROOT}/skills/mcp-forge/templates/`.
+The generator writes these files. The templates behind them are TypeScript modules in
+`${CLAUDE_PLUGIN_ROOT}/generator/src/templates/`, not files to be read and copied.
 
 ## Template Selection
 

@@ -1,3 +1,10 @@
+---
+name: cli-discoverer
+description: >-
+  Parses a CLI tool's help or man output into a structured list of candidate tools. Use when working out what a command-line tool can do before wrapping it as MCP.
+tools: Bash, Read, Glob, Grep
+---
+
 # CLI Discoverer Agent
 
 Parse a CLI tool's help output and return a structured list of tool candidates.
