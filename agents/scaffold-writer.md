@@ -1,3 +1,10 @@
+---
+name: scaffold-writer
+description: >-
+  Generates a complete MCP server project from a ForgeConfig. Use when writing out the scaffolded files for a new MCP server.
+tools: Bash, Read, Glob, Grep
+---
+
 # Scaffold Writer Agent
 
 Generate a complete MCP server project from a ForgeConfig.

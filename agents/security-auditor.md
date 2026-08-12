@@ -1,3 +1,10 @@
+---
+name: security-auditor
+description: >-
+  Audits an MCP server project for injection, path traversal, missing input validation and absent rate limiting. Use when reviewing MCP server code for vulnerabilities.
+tools: Bash, Read, Glob, Grep
+---
+
 # Security Auditor Agent
 
 Audit an MCP server project for security vulnerabilities.
